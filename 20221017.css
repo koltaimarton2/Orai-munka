@@ -1,7 +1,29 @@
-table, td {
+body {
+    margin: 0;
+}
+table, td, th {
     border: 1px solid darkblue;
     border-collapse: collapse;
 }
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: darkgray;
+    color: #ccc;
+}
+td, th {
+    padding: 10px;
+}
+.kozep {
+    text-align: center;
+}
 div p {
     background-color: aquamarine;
+}
+hr {
+    margin: 40px 0;
+    border: 5px solid black;
 }
